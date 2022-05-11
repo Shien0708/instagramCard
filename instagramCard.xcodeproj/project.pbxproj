@@ -13,6 +13,7 @@
 		64A14BBF282B84EE00C6037C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64A14BBD282B84EE00C6037C /* Main.storyboard */; };
 		64A14BC1282B84F000C6037C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64A14BC0282B84F000C6037C /* Assets.xcassets */; };
 		64A14BC4282B84F000C6037C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64A14BC2282B84F000C6037C /* LaunchScreen.storyboard */; };
+		64ECF478282BA68A004CD1F9 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ECF477282BA68A004CD1F9 /* ColorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		64A14BC0282B84F000C6037C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64A14BC3282B84F000C6037C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64A14BC5282B84F000C6037C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64ECF477282BA68A004CD1F9 /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		64A14BAB282B84EE00C6037C = {
 			isa = PBXGroup;
 			children = (
+				64ECF477282BA68A004CD1F9 /* ColorViewController.swift */,
 				64A14BB6282B84EE00C6037C /* instagramCard */,
 				64A14BB5282B84EE00C6037C /* Products */,
 			);
@@ -140,6 +143,7 @@
 			files = (
 				64A14BBC282B84EE00C6037C /* ViewController.swift in Sources */,
 				64A14BB8282B84EE00C6037C /* AppDelegate.swift in Sources */,
+				64ECF478282BA68A004CD1F9 /* ColorViewController.swift in Sources */,
 				64A14BBA282B84EE00C6037C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +294,7 @@
 				DEVELOPMENT_TEAM = Z4822F8J4X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = instagramCard/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "允許存取相機裝置";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +323,7 @@
 				DEVELOPMENT_TEAM = Z4822F8J4X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = instagramCard/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "允許存取相機裝置";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
